@@ -3,6 +3,7 @@
 #define NV406E_SEMAPHORE_OFFSET                      0x0064
 #define NV406E_SEMAPHORE_ACQUIRE                     0x0068
 #define NV406E_SEMAPHORE_RELEASE                     0x006C
+
 #define NV4097_SET_OBJECT                            0x0000
 #define NV4097_NO_OPERATION                          0x0100
 #define NV4097_NOTIFY                                0x0104
@@ -213,6 +214,7 @@
 #define NV4097_SET_VERTEX_ATTRIB_INPUT_MASK          0x1FF0
 #define NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK         0x1FF4
 #define NV4097_SET_TRANSFORM_BRANCH_BITS             0x1FF8
+
 #define NV0039_SET_OBJECT                            0x2000
 #define NV0039_SET_CONTEXT_DMA_NOTIFIES              0x2180
 #define NV0039_SET_CONTEXT_DMA_BUFFER_IN             0x2184
@@ -225,6 +227,7 @@
 #define NV0039_LINE_COUNT                            0x2320
 #define NV0039_FORMAT                                0x2324
 #define NV0039_BUFFER_NOTIFY                         0x2328
+
 #define NV3062_SET_OBJECT                            0x6000
 #define NV3062_SET_CONTEXT_DMA_NOTIFIES              0x6180
 #define NV3062_SET_CONTEXT_DMA_IMAGE_SOURCE          0x6184
@@ -233,11 +236,13 @@
 #define NV3062_SET_PITCH                             0x6304
 #define NV3062_SET_OFFSET_SOURCE                     0x6308
 #define NV3062_SET_OFFSET_DESTIN                     0x630C
+
 #define NV309E_SET_OBJECT                            0x8000
 #define NV309E_SET_CONTEXT_DMA_NOTIFIES              0x8180
 #define NV309E_SET_CONTEXT_DMA_IMAGE                 0x8184
 #define NV309E_SET_FORMAT                            0x8300
 #define NV309E_SET_OFFSET                            0x8304
+
 #define NV308A_SET_OBJECT                            0xA000
 #define NV308A_SET_CONTEXT_DMA_NOTIFIES              0xA180
 #define NV308A_SET_CONTEXT_COLOR_KEY                 0xA184
@@ -254,6 +259,7 @@
 #define NV308A_SIZE_OUT                              0xA308
 #define NV308A_SIZE_IN                               0xA30C
 #define NV308A_COLOR                                 0xA400
+
 #define NV3089_SET_OBJECT                            0xC000
 #define NV3089_SET_CONTEXT_DMA_NOTIFIES              0xC180
 #define NV3089_SET_CONTEXT_DMA_IMAGE                 0xC184
